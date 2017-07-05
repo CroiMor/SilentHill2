@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+section{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: #000;
+    margin: 0;
+}
+
+li{
+    display: inline;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.margin-top10{
+    margin-top: 10px;
+}
+
+.box{
+    float: left;
+    margin: 0px;
+    border: 3px solid #ff4700;
+    background-color: #000;
+    box-shadow: 10px 10px 3px #ff4700,
+                     -10px -10px 3px #ff4700,
+                     -10px 10px 3px #ff4700,
+                     10px -10px 3px #ff4700;
+}
+
+#lying{
+    height: 300px;
+    width: 300px;
+}
+ul, menu, dir {
+    display: inline-flex;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}

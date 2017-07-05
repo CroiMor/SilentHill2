@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+
+section{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: #000;
+    margin: 0;
+}
+
+li{
+    display: inline;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.margin-top10{
+    margin-top: 10px;
+}
+
+.titulo{
+    color: #ff4700;
+    font-size: xx-large;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p{
+    color: #fff;
+}
